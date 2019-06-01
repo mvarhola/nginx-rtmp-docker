@@ -18,8 +18,8 @@ The main purpose is to allow streaming from [**Comfy Channel**](https://github.c
 
 ## How to use
 
-* For the simplest case, just run a container with this image:
+* For the simplest case, just run a container with this image, and navigate to http://localhost:80
 
 ```bash
-docker run -d -p 1935:1935 --name nginx-rtmp mvarhola/nginx-rtmp
+docker run -d -p 80:80 -p 1935:1935 --name nginx-rtmp mvarhola/nginx-rtmp
 ```
