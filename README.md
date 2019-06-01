@@ -16,8 +16,6 @@ The main purpose is to allow streaming from [**Comfy Channel**](https://github.c
 
 **Docker Hub image**: <https://hub.docker.com/r/mvarhola/nginx-rtmp/>
 
-## Details
-
 ## How to use
 
 * For the simplest case, just run a container with this image:
